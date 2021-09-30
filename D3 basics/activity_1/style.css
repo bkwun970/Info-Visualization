@@ -1,0 +1,16 @@
+
+body {
+    font-family: "Open Sans";
+}
+
+#main {
+    margin: 10px 20px;
+}
+.ranks {
+    display: flex;
+    justify-content: center;
+}
+.num_homeruns {
+    display: flex;
+    justify-content: center;
+}
