@@ -1,0 +1,8 @@
+body {
+    font-family: "Open Sans";
+    display: flex;
+    justify-content: center;
+}
+#main {
+    margin: 10px 20px;
+}
