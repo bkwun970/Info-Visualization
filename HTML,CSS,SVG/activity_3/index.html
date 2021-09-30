@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Lab 0 - Activity 3</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+	<div>
+		<svg id="single-bar">
+			<rect x=175 y=25 width=50 height=250 fill="steelblue"></rect>
+		</svg>
+	</div>
+
+	<div>
+		<svg id="bar-chart">
+			<rect x=0 y=150 width=49 height=150 fill="steelblue"></rect>
+			<rect x=49 y=150 width=1 height=150 fill="white"></rect>
+
+			<rect x=50 y=75 width=49 height=225 fill="steelblue"></rect>
+			<rect x=99 y=75 width=1 height=225 fill="white"></rect>
+
+			<rect x=100 y=75 width=49 height=225 fill="steelblue"></rect>
+			<rect x=149 y=75 width=1 height=225 fill="white"></rect>
+
+			<rect x=150 y=0 width=49 height=300 fill="steelblue"></rect>
+			<rect x=199 y=0 width=2 height=300 fill="white"></rect>
+
+			<rect x=200 y=0 width=49 height=300 fill="steelblue"></rect>
+			<rect x=249 y=0 width=2 height=300 fill="white"></rect>
+
+			<rect x=250 y=75 width=49 height=225 fill="steelblue"></rect>
+			<rect x=299 y=75 width=1 height=225 fill="white"></rect>
+
+			<rect x=300 y=75 width=49 height=225 fill="steelblue"></rect>
+			<rect x=349 y=75 width=1 height=225 fill="white"></rect>
+
+			<rect x=350 y=150 width=49 height=150 fill="steelblue"></rect>
+			<rect x=399 y=150 width=1 height=150 fill="white"></rect>
+		</svg>
+	</div>
+
+	<div>
+		<svg id="line-chart">
+			<polyline fill="none" stroke="steelblue" stroke-width="2"
+     points="
+       25,150
+       75,75
+       125,75
+       175,0
+       225,0
+       275,75
+       325,75
+       375,150
+       "/>
+		</svg>
+
+		<div>
+			<svg id="pie-chart">
+			<circle r="50" cx="200" cy="150" fill="yellow" stroke="black"/>
+
+			<circle r="50" cx="200" cy="150" fill="green" stroke-dasharray="75 100" transform="rotate(-90)" />
+		</svg>
+		</div>
+	</div>
+</body>
+
+</html>
